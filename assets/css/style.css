@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #df7599;
+  padding: 30px;
+  background-color: #000;
+}
+
+.header {
+  height: 95vh;
+  /* background-image: linear-gradient(to right bottom, */
+    background-color:  rgba(80, 38, 167, 1);
+      /* rgba(202, 173, 222, 1)), */
+    /* url(https://images.pexels.com/photos/908284/pexels-photo-908284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 60%, 0 0, 100% 0, 100% 80%);
+  position: relative;
+}
+.logo-box{
+  position:absolute;
+  top: 40px;
+  left: 40px;
+  color: #e7eaf6;
+
+}
+.logo{
+  height: 35px;
+  color: #e7eaf6;
+
+}
+.logo:hover{
+
+}
+.text-box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.heading-primary-main{
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 15px;
+  color: #e7eaf6;
+
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  animation: moveInRight 2s ease-out;
+  color: #e7eaf6;
+
+  backface-visibility: hidden;
+}
+.btn:link,
+.btn:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: relative;
+
+}
+.btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+.btn:active{
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+}
+.btn-white{
+  background-color: #e7eaf6;
+  color: #777;
+}
+.btn::after{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .2s;
+
+}
+.btn-white::after{
+  background-color: #e7eaf6;
+}
+/* .btn:hover::after{
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+} */
+.btn-animated{
+  animation: moveInBtn .5s ease-out .75;
+  animation-fill-mode: backwards;
