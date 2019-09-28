@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #df7599;
+  color: #000;
   padding: 30px;
   background-color: #000;
 }
@@ -121,3 +121,18 @@ body {
 .btn-animated{
   animation: moveInBtn .5s ease-out .75;
   animation-fill-mode: backwards;
+}
+h5{
+  color: rgba(80, 38, 167, 1);
+}
+
+#middle{
+  background-color:  rgba(80, 38, 167, 1);
+  color: #fff;
+  height: 400px;
+  margin-top: 60px;
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 50%, 100% 100%);
+}
+#features{
+  color:  #eeeeee;
+}
