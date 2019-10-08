@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,6 +12,11 @@ body {
   color: #000;
   padding: 30px;
   background-color: #000;
+} */
+body{
+  background-color: #4d4d52;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/
 }
 
 .header {
@@ -133,6 +138,29 @@ h5{
   margin-top: 60px;
     -webkit-clip-path: polygon(0 100%, 0 0, 100% 50%, 100% 100%);
 }
+/* #red{
+  background-color: red;
+  color: #fff;
+  height: 900px;
+  margin-top: 60px;
+    -webkit-clip-path: polygon(0 0%, 100% 42%, 100% 91%, 0 79%);
+} */
 #features{
-  color:  #eeeeee;
+  color:  #000;
+}
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
