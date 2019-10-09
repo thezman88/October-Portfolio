@@ -2,8 +2,7 @@
 body{
   background-color: #4d4d52;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
-/
-}
+font-family: 'Neuton', serif;}
 
 .header {
   height: 95vh;
@@ -151,4 +150,7 @@ h5{
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+li {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
