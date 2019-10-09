@@ -1,0 +1,24 @@
+body{
+  font-family: 'Lalezar', cursive;
+color:#666;
+}
+
+
+#athlete{
+background-color: #6c7b95;
+color: #f6f6f6;
+}
+.jumbotron{
+  background-color: #8bbabb;
+  color: #666;
+  font-family: 'Lalezar', cursive;
+
+}
+.btn{
+  background-color: #6c7b95;
+  color:#fff;
+}
+
+#imageContainer{
+
+}

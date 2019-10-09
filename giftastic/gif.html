@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- my css -->
+  <link rel="stylesheet" href="gif.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+  <!-- jumbotron -->
+  <div class="jumbotron">
+    <div class="container text-start">
+      <h1 class="display-3">GifTastic!</h1>
+      <p class="lead">Select an Athlete name below to display a Gif.</p>
+      <i class="fas fa-trophy"></i>
+      <i class="fas fa-baseball-ball"></i>
+      <i class="fas fa-football-ball"></i>
+      <i class="fas fa-golf-ball"></i>
+      <i class="fas fa-hockey-puck"></i>
+    </div>
+  </div>
+  <!-- search section  -->
+  <div class="container">
+    <div class="row">
+      <!-- original athlete section -->
+      <div class="col mr-5 border">
+        <p class="lead mt-3">Select an Athlete</p>
+        <hr>
+        <div class="btn-group col-4">
+    <button class="btn mr-1" id="show" data-search="Derk Jeter">Derk Jeter</button>
+    <button class="btn mr-1" id="show" data-search="Tiger Woods">Tiger Woods</button>
+    <button class="btn mr-1" id="show" data-search="Wayne Gretzky">Wayne gretzky</button>
+    <button class="btn mr-1" id="show" data-search="Peyton Manning">Peyton Manning</button>
+
+    <div id="myButtons"></div>
+  </div> <!--end of button group -->
+      </div>
+      <!-- choose new athlete -->
+      <div class="col border">
+        <p class="lead mt-3">Add an athlete button</p>
+        <hr>
+        <form class="form-inline" id="netflixSearch">
+          <div class="form-group mb-3 mr-1">
+            <input type="text" id="athleteInput">
+          </div>
+          <!-- Button triggers show to be added -->
+          <input class="mb-3"id="addShow" type="submit" value="submit">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!-- display container -->
+  <div id="imageContainer" class="container mt-5">
+    <div class="row border">
+      <div class="col">
+        <p class="lead">Search Results</p>
+        <hr>
+        <div class="container">
+  <div id="gifArea" class="row">
+
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- my js -->
+  <script src="gif.js" charset="utf-8"></script>
+</body>
+
+</html>
