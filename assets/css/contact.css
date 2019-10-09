@@ -2,7 +2,9 @@
 body{
   background-color: #4d4d52;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
-font-family: 'Neuton', serif;}
+  /* font-family: 'IBM Plex Sans Condensed', sans-serif; */
+/
+}
 
 .header {
   height: 95vh;
