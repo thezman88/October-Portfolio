@@ -4,9 +4,12 @@ body{
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
 /
 }
-/* .fab fa-github-square{
-  margin-top: 50px;
+/* .fab fa-github-square fa-2x{
+  margin-top: 20px;
 } */
+#logos{
+  margin-top: 60px;
+}
 .header {
   height: 95vh;
   /* background-image: linear-gradient(to right bottom, */
